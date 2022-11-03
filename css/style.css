@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- header item start --> */
+
+header {
+    max-width: 70%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    margin-left: 40px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #626262;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul li a:hover {
+    color: rgb(2, 230, 230);
+    transition: .4s all ease-in-out;
+
+}
+
+/* <!-- header item end --> */
+
+/* <!-- banner item start --> */
+.banner {
+    background-image: url(../images/bannert.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 110vh;
+    position: relative;
+}
+
+.banner_item {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner_item h1 {
+    margin-bottom: 10px;
+    font-size: 140px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.banner_item h1:hover {
+    color: aqua;
+    transition: .6s all ease-in-out;
+
+}
+
+.banner_item p {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner_item span {
+    display: block;
+    height: 4px;
+    background-color:#4A8FBE;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.banner_item button {
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgb(0, 204, 255);
+    padding: 15px 30px;
+    border-radius: 5px;
+   
+}
+
+.banner_item button a {
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner_item button:hover {
+    background-color: aqua;
+    transition: .6s all ease-in;
+}
+
+.banner_item button a:hover {
+    color: #000;
+
+}
+
+
+.icon{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: updown 1s linear infinite ;
+    animation-direction: alternate;
+}
+@keyframes updown{
+    0%{
+        bottom: 70px;
+    }
+    100%{
+        bottom: 20px;
+    }
+}
+.icon i {
+font-size: 30px;
+color: #fff;
+}
+/* <!-- icon item end --> */
+/* <!-- banner item end --> */
+
+/* <!-- simple design start --> */
+.simple_design{
+background: #ebf8f8;
+
+}
+.simple_details{
+    max-width: 61%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.simple_details h1{
+margin-bottom: 15px;
+font-size: 35px;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.simple_details p{
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* <!-- simple design end --> */
+
+/* <!-- feature content start --> */
+.feature_content{
+
+}
+.feature_wrapper{
+max-width: 70%;
+margin: auto;
+padding: 50px 0;
+display: flex;
+justify-content: space-between;
+}
+/* <!-- feature item start --> */
+.feature_item{
+    width: 33.3%;
+    text-align: center;
+}
+.feature_item h1{
+margin-bottom: 10px;
+font-size: 21px;
+font-weight: 700;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.feature_item p{
+font-size: 16px;
+font-weight: 100;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+/* <!-- feature item end --> */
+
+/* <!-- icon box start --> */
+.icon_box{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45b9ff+0,48baff+50,5fc3ff+50,7db9e8+100 */
+background: #45b9ff; /* Old browsers */
+background: -moz-linear-gradient(left,  #45b9ff 0%, #48baff 50%, #5fc3ff 50%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #45b9ff 0%,#48baff 50%,#5fc3ff 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #45b9ff 0%,#48baff 50%,#5fc3ff 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45b9ff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.icon_box i{
+color: #fff;
+font-size: 30px;
+text-shadow: 1px 1px 1px #000;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- icon box end --> */
+
+/* <!-- feature content end --> */
